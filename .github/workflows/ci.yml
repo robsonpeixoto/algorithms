@@ -23,7 +23,7 @@ jobs:
           check-latest: true
           cache-dependency-path: go.sum
 
-      - name: golangci-lint
+      - name: Lint
         uses: golangci/golangci-lint-action@v3
         with:
           only-new-issues: true
