@@ -10,6 +10,9 @@ permissions:
   contents: read
   pull-requests: read
 
+env:
+ GOPRIVATE: github.com/robsonpeixoto/algorithms
+
 jobs:
   build:
     runs-on: ubuntu-latest
