@@ -1,4 +1,4 @@
-package solve_me_first
+package main
 
 import "fmt"
 
