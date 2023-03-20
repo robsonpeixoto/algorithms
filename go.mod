@@ -2,7 +2,10 @@ module github.com/robsonpeixoto/algorithms
 
 go 1.20
 
-require github.com/stretchr/testify v1.8.2
+require (
+	github.com/stretchr/testify v1.8.2
+	golang.org/x/exp v0.0.0-20230315142452-642cacee5cc0
+)
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
