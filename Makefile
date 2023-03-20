@@ -1,10 +1,10 @@
 MAKEFLAGS += --always-make
 
 test:
-	go test -v ./...
+	@go test -v ./...
 
 fmt:
-	go fmt ./...
+	@go fmt ./...
 
 lint:
-	golangci-lint run
+	@golangci-lint run
