@@ -3,7 +3,7 @@ module github.com/robsonpeixoto/algorithms
 go 1.20
 
 require (
-	github.com/stretchr/testify v1.8.2
+	github.com/stretchr/testify v1.8.3
 	golang.org/x/exp v0.0.0-20230315142452-642cacee5cc0
 )
 
